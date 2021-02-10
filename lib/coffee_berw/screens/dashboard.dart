@@ -2,12 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:uiChallenges/constant/color_palett.dart';
-import 'package:uiChallenges/screens/black_gold.dart';
-import 'package:uiChallenges/screens/cold_berw.dart';
-import 'package:uiChallenges/screens/gold_brew.dart';
-import 'package:uiChallenges/screens/mccafe.dart';
-import 'package:uiChallenges/screens/nescaffe.dart';
+import 'package:uiChallenges/coffee_berw/constant/color_palett.dart';
+import 'package:uiChallenges/coffee_berw/screens/gold_brew.dart';
+
+import 'black_gold.dart';
+import 'cold_berw.dart';
+import 'mccafe.dart';
+import 'nescaffe.dart';
 
 class DashboardPage extends StatefulWidget {
   @override

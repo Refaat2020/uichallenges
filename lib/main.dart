@@ -1,8 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:uiChallenges/screens/dashboard.dart';
+import 'package:flutter/services.dart';
+import 'package:uiChallenges/video.dart';
+import 'package:uiChallenges/washing_machine/locator/service_locator.dart';
+import 'package:uiChallenges/washing_machine/washing_app.dart';
+import 'coffee_berw/screens/dashboard.dart';
+import 'hair_salons/hair_main.dart';
 
 void main() {
-  runApp(MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  ServicesLocator.init();
+  runApp(WashingApp());
+  SystemChrome.setEnabledSystemUIOverlays([
+    SystemUiOverlay.bottom,
+  ]);
 }
 
 class MyApp extends StatelessWidget {
@@ -17,7 +27,7 @@ class MyApp extends StatelessWidget {
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: DashboardPage(),
+      home: VideoScreen(),
     );
   }
 }

@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:uiChallenges/constant/color_palett.dart';
+import 'package:uiChallenges/coffee_berw/constant/color_palett.dart';
 
 class CoffeeDetails extends StatefulWidget {
   final imagePath,headerColor;

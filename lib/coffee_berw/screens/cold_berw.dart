@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smooth_star_rating/smooth_star_rating.dart';
-import 'package:uiChallenges/constant/color_palett.dart';
-import 'package:uiChallenges/screens/detials.dart';
+import 'package:uiChallenges/coffee_berw/constant/color_palett.dart';
+
+import 'detials.dart';
 
 class ColdBrew extends StatefulWidget {
   @override
